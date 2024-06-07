@@ -1,19 +1,22 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import LitUpButton from './ui/LitUpButton'
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
+    console.log('Hero component rendered');
   return (
     <div className = "pb-20 pt-36">
         <div>
             <Spotlight className = "-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill = "white"/>
-            <Spotlight className = "top-10 left-full h-[80vh] w-[50vw]" fill = "yellow"/>
-            <Spotlight className = "-top-14 left-80 h-[60vh] w-[150vw]" fill = "blue"/>
+            <Spotlight className = "top-10 left-full h-[80vh] w-[50vw]" fill = "purple"/>
+            <Spotlight className = "-top-100 left-60 h-[60vh] w-[50vw]" fill = "blue"/>
         </div>
 
-        <div className="h-screen w-full dark:bg-grey-dark bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
+        <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
-            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-grey-dark bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
                 {/*background*/}
             </p>
@@ -32,6 +35,12 @@ const Hero = () => {
                 <p className = "text-center md:trackin-wider mb-4 text-sm md:text-lg lg: text-2xl">
                 I Am A Student Aspiring To Be A Full-Stack Developer Based In San Francisco
                 </p>
+
+                <LitUpButton 
+                title = "Show My Work" 
+                icon = {<FaLocationArrow />}
+                position = 'right'
+                />
             </div>
         </div>
     </div>
