@@ -32,12 +32,17 @@ const config = {
           100: "#000319",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
-          400: "#BEC1DD",
+          400: "#080808 ",
         },
         white: {
           DEFAULT: "#FFF",
           100: "#BEC1DD",
           200: "#C1C2D3",
+        },
+        yellow:{
+          DEFAULT: "#FFFF00",
+          unmellow: "#FFFF66",
+          lemon: "#fff44f",
         },
         green:{
           DEFAULT: "#0F3923",
@@ -49,10 +54,11 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: "#CBACF9",
-        grey: {
+        grey:{
           "battleship": "#848482",
           "purple": "#A7A6BA",
           "dark": "#242526",
+          jet: "#343434",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -34,7 +34,7 @@ export const TextGenerateEffect = ({
               key={word + idx}
               // HTML if statements: `${condition ? (action if true) : (action if false)}
               // idx stands for the index of the string in the string array. idx > 3 means from the FOURTH WORD ONWORD, make it purple
-              className={ `${idx > 3 ? 'text-purple' : `dark:text-white text-black `} opacity-0`}
+              className={ `${idx > 3 ? 'text-yellow-lemon' : `dark:text-white text-black `} opacity-0`}
             >
               {word}{" "}
             </motion.span>
