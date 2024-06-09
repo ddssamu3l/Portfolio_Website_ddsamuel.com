@@ -1,6 +1,14 @@
+'use client'
+import Lottie from "react-lottie";
+import { useState } from "react";
+import { IoCheckmark, IoCopyOutline } from "react-icons/io5";
+
+
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
+import animationData from "@/data/confetti.json"
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -43,6 +51,13 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const[copied, setCopied] = useState(false);
+  
+  const handelCopy = () =>{
+    navigator.clipboard.writeText(`samueldeng78@gmail.com`);
+    setCopied(true);
+  }
+
   return (
     <div
       className={cn(
@@ -56,8 +71,8 @@ export const BentoGridItem = ({
       }}
     >
       
-      <div className = {`${id === 6} && 
-        'flex justify-center h-full`}>
+      <div className = {`${id === 6 && 
+        'flex justify-center'} h-full`}>
             <div className="w-full h-full absolute">
                 {img && (
                     <img src={img}
@@ -75,10 +90,14 @@ export const BentoGridItem = ({
                 )}
             </div>
             {id===6 && (
-                <BackgroundGradientAnimation>
-                    <div className="absolute z-50 flex items-center
-                     justify-center text-white font-bold"/>
-                </BackgroundGradientAnimation>
+                <BackgroundGradientAnimation
+                    gradientBackgroundStart = "#030303"
+                    gradientBackgroundEnd = "#020202"
+                    thirdColor = "250, 201, 5"
+                    fourthColor = "245, 120, 2"
+                    fifthColor = "250, 221, 2"
+                    pointerColor = "10, 67, 191"
+                />
             )}
 
             <div className={cn(
@@ -90,29 +109,51 @@ export const BentoGridItem = ({
                 <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
                     {title}
                 </div>
-            
+        
             {id === 2 && <GlobeDemo />}
 
             {id === 3 && (
                 <div className = "flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
                     <div className = "flex flex-col gap-3 lg:gap-8">
                         {['React.js', 'Next.js', 'Tailwind CSS'].map((item) =>
-                            <span key = {item} className = "py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                            <span key = {item} className = "py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-grey-dark">
                                 {item}
                             </span>
                         )}
-                        <span className = "py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                        <span className = "py-4 px-3 rounded-lg text-center bg-grey-dark" />
                     </div>
 
                     <div className = "flex flex-col gap-3 lg:gap-8">
-                    <span className = "py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                    <span className = "py-4 px-3 rounded-lg text-center bg-grey-dark" />
                         {['TypeScript', 'JavaScript', 'Java'].map((item) =>
-                            <span key = {item} className = "py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                            <span key = {item} className = "py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-grey-dark">
                                 {item}
                             </span>
                         )}
                         
                     </div>
+                </div>
+            )}
+
+            {id === 6 && (
+                <div className = "mt-5 relative">
+                    <div className = {`absolute -bottom-5 right-0`}>
+                        <Lottie options = {{
+                            loop: copied, 
+                            autoplay: copied,
+                            animationData,
+                            rendererSettings: {
+                                preserveAspectRatio: 'xMidYMid slice'
+                            }
+                        }} />
+                    </div>
+
+                    <MagicButton
+                        title = {copied ? 'Email Copied!' : "Copy My Email"}
+                        icon = {copied ? <IoCheckmark/> : <IoCopyOutline />}
+                        position = "right"
+                        handleClick = {handelCopy}
+                        />
                 </div>
             )}
             </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import LitUpButton from './ui/LitUpButton'
+import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
@@ -42,7 +42,7 @@ const Hero = () => {
                 I'm A Student From Vancouver Canada Aspiring To Be A Full-Stack Developer
                 </p>
 
-                <LitUpButton 
+                <MagicButton 
                 title = "Show My Work" 
                 icon = {<FaLocationArrow />}
                 position = 'right'

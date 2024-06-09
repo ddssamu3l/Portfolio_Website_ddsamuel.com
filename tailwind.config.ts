@@ -58,7 +58,7 @@ const config = {
         grey:{
           "battleship": "#848482",
           "purple": "#A7A6BA",
-          "dark": "#242526",
+          "dark": "#1c1c1c",
           jet: "#343434",
         },
         border: "hsl(var(--border))",

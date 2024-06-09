@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open Communication ",
+      title: "I prioritize client comminication and learning their preferences",
       description: "",
       className: "lg:col-span-3 lg:row-span-4 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "SWD by day, game designer by night",
+      title: "SWD, and a Game Designer on the side",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Currently Building a Full Stack E-Commerce Website For My Sister's Jewlery Brand",
+      description: "What I Am Working On",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Contact me via email!",
+      title: "Can I work with you to build a project together?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
