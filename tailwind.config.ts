@@ -29,7 +29,7 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
+          100: "#000000",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
           400: "#080808 ",
@@ -41,6 +41,7 @@ const config = {
         },
         yellow:{
           DEFAULT: "#FFFF00",
+          100: "#e8be02",
           unmellow: "#FFFF66",
           lemon: "#fff44f",
         },
