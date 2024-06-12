@@ -8,9 +8,9 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client comminication and learning their preferences",
+      title: "I prioritize client collaboration, fostering open communication ",
       description: "",
-      className: "lg:col-span-3 lg:row-span-4 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
       img: "/b1.svg",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm flexable across different timezones",
+      title: "I'm very flexible with time zone communications",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I'm constantly learning",
+      description: "I constantly try to improve",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -61,7 +61,7 @@ export const navItems = [
       id: 6,
       title: "Can I work with you to build a project together?",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
@@ -76,7 +76,7 @@ export const navItems = [
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://www.youtube.com/watch?v=dQJ5l9eZSww",
     },
     {
       id: 2,

@@ -5,7 +5,6 @@ import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
-    console.log('Hero component rendered');
   return (
     <div className = "pb-20 pt-36">
         <div>
