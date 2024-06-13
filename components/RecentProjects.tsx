@@ -1,6 +1,7 @@
 import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
+import { FaLocationArrow } from 'react-icons/fa'
 
 const RecentProjects = () => {
   return (
@@ -14,7 +15,7 @@ const RecentProjects = () => {
         {projects.map(({id, title, des, img, iconLists, link}) => (
           <div key = {id} className = "sm:h-[35rem] h-[32rem] lg:min-h[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]">
             <PinContainer title = {link}  href = {link}>
-              <div className = "relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[45vw] h-[20vw] lg:h-[25vh] mb-10">
+              <div className = "relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[45vw] h-[40vw] lg:h-[25vh] mb-10">
                 <div className = "relative w-full h-full overflow-hidden lg:rounded-3xl bg-grey-dark">
                   <img src = "/bg.png" alt = "bg-img"/>
                 </div>
@@ -36,7 +37,13 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-
+                
+                <div className="flex justify-center items-center">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-yellow-100">
+                    Check Demo
+                  </p>
+                  <FaLocationArrow className="ms-3" color="FFFFFF" />
+                </div>
               </div>
             </PinContainer>
           </div>
