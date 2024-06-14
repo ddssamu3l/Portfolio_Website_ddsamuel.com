@@ -212,9 +212,5 @@ export const navItems = [
       img: "/link.svg",
       url: "https://www.linkedin.com/in/jingxi-deng-6b2b37307/"
     },
-    {
-      id: 3,
-      img: "/YouTube.svg",
-      url: "https://www.youtube.com/channel/UCrSxSS-B8hw6vMmy___7zLQ"
-    },
+    
   ];
