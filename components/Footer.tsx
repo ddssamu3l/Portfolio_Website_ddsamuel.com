@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw] mb-10">
-          I'm <span className="text-yellow-100">always rechable</span> with an email
+          I&apos;m <span className="text-yellow-100">always rechable</span> with an email
         </h1>
        
         <a href="mailto:samueldeng78@gmail.com">

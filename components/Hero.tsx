@@ -45,7 +45,7 @@ const Hero = () => {
                     words = "Hi! My Name is Jingxi Deng"/>
                 
                 <p className = "text-center md:trackin-wider mb-4 text-sm md:text-lg lg: text-2xl">
-                I'm A Student From Vancouver Canada Aspiring To Be A Full-Stack Developer
+                I&apos;m A Student From Vancouver Canada Aspiring To Be A Full-Stack Developer
                 </p>
 
                 <MagicButton 

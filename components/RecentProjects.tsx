@@ -7,7 +7,7 @@ const RecentProjects = () => {
   return (
     <div className = "py-20" id = "projects">
       <h1 className = "heading">
-        Here's some of my {' '}
+        Here&apos;s some of my {' '}
         <span className = "text-yellow-100">recent projects</span>
       </h1>
 
