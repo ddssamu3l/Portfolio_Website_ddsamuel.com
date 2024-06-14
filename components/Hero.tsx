@@ -1,10 +1,17 @@
-import React from 'react'
+"use client"
+import React, { useRef } from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa";
+import RecentProjects from './RecentProjects'
 
 const Hero = () => {
+
+  const showMyGithub = () => {
+    window.open("https://github.com/ddssamu3l", '_blank');
+  }
+
   return (
     <div className = "pb-20 pt-36">
         <div>
@@ -45,6 +52,7 @@ const Hero = () => {
                 title = "Show My Work" 
                 icon = {<FaLocationArrow />}
                 position = 'right'
+                handleClick={showMyGithub}
                 />
             </div>
         </div>

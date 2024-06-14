@@ -10,10 +10,10 @@ export const navItems = [
       id: 1,
       title: "I prioritize client collaboration, fostering open communication ",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] sm:min-h-[50vh] xs:min-h-[50vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/StandingPose.jpeg",
       spareImg: "",
     },
     {
@@ -96,11 +96,11 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
+      title: "Breakout",
+      des: "Created using Processing 4, this game includes many user interface screens such as an intro screen, a game screen, a win screen as well as a game-over/lose screen.",
+      img: "/BreakoutScreenshot.png",
+      iconLists: ["/processing.svg", "/java.svg"],
+      link: "https://youtube.com/shorts/uHlUW_5R2bw?feature=share",
     },
   ];
   

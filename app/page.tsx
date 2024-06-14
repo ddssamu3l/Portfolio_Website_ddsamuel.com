@@ -20,8 +20,8 @@ export default function Home() {
         <Grid />
         <Approach />
         <RecentProjects />
-        <Experience />
-        <Clients />
+        {/* <Experience />
+        <Clients /> */ }
         <Footer />
       </div>
     </main>
