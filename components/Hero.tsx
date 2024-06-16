@@ -5,11 +5,16 @@ import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa";
 import RecentProjects from './RecentProjects'
+import { socialMedia } from '@/data'
 
 const Hero = () => {
 
-  const showMyGithub = () => {
+  {/*const showMyGithub = () => {
     window.open("https://github.com/ddssamu3l", '_blank');
+  }*/}
+
+  const handleClick = (url: string | URL | undefined) => {
+    window.open(url, '_blank');
   }
 
   return (
@@ -48,12 +53,25 @@ const Hero = () => {
                 I&apos;m A Student From Vancouver Canada Aspiring To Be A Full-Stack Developer
                 </p>
 
-                <MagicButton 
-                title = "Show My Work" 
-                icon = {<FaLocationArrow />}
-                position = 'right'
-                handleClick={showMyGithub}
-                />
+                <div className="flex items-center md:gap-3 gap-6 mt-5">
+                  {socialMedia.map((info) => (
+                    <div
+                      key={info.id}
+                      className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-100 rounded-lg border border-white"
+                      onClick={() => handleClick(info.url)}
+                      >
+                        <img src={info.img} alt="icons" width={20} height={20} />
+                    </div>
+                  ))}
+                </div>
+
+                <a href="#projects">
+                  <MagicButton
+                    title="Show my work"
+                    icon={<FaLocationArrow />}
+                    position="right"
+                  />
+                </a>
             </div>
         </div>
     </div>

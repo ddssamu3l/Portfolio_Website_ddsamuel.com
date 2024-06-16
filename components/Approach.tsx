@@ -8,8 +8,10 @@ const Approach = () => {
   return (
     <section className = "w-full py-20">
         <h1 className = "heading">
-            My <span className = "text-yellow-100">approach</span>
+            My <span className = "text-yellow-100">approach</span> to workflow
         </h1>
+
+        <p className = "mt-5 text-center"> Try hovering your mouse over the cards</p>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card 
             title="My Brainstorming Process" 
