@@ -8,7 +8,7 @@ const RecentProjects = () => {
     <div className = "py-20" id = "projects">
       <h1 className = "heading">
         Here are some of my {' '}
-        <span className = "text-yellow-100">proudest games </span>
+        <span className = "text-yellow-100">recent projects </span>
       </h1>
 
       <div className = "flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
@@ -40,7 +40,7 @@ const RecentProjects = () => {
                 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-yellow-100">
-                    Live Demo on YouTube
+                    Click For Live Demo
                   </p>
                   <FaLocationArrow className="ms-3" color="FFFFFF" />
                 </div>

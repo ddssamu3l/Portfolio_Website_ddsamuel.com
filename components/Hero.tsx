@@ -53,7 +53,7 @@ const Hero = () => {
                 I&apos;m A Student From Vancouver Canada Aspiring To Be A Full-Stack Developer
                 </p>
 
-                <div className="flex items-center md:gap-3 gap-6 mt-5">
+                <div className="flex items-center md:gap-3 gap-6 mt-5 mb-4">
                   {socialMedia.map((info) => (
                     <div
                       key={info.id}
@@ -65,7 +65,7 @@ const Hero = () => {
                   ))}
                 </div>
 
-                <a href="#projects">
+                <a className="" href="#projects">
                   <MagicButton
                     title="Show my work"
                     icon={<FaLocationArrow />}

@@ -1,24 +1,23 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "This is what I look like on my best, most presentable days. ",
+      title: "I'm from the Beautiful British Columbia",
       description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[55vh] min-h-[45vh] text-black-100",
-      imgClassName: "w-full h-full",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[55vh] min-h-[45vh] text-white",
+      imgClassName: "w-full lg:h-[44vh] h-[40vh]",
       titleClassName: "justify-end",
-      img: "/FormalProfilePicture.jpg",
+      img: "/bc.png",
       spareImg: "",
     },
     {
       id: 2,
-      title: "I've always wanted to experience the bay's tech scene. That's why I came here to study!",
+      title: "The bay's tech scene drew me to study here.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -59,7 +58,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Can I work with you to create your next project?",
+      title: "Can I work with you to create your next project? Click for confetti",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
       imgClassName: "",
@@ -71,15 +70,23 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
+      id: 2,
+      title: "Prompt-A-Chat: AI Prompt Sharing APP",
+      des: "Discover & Share useful prompts to use for ChatGPT.",
+      img: "/Prompt-A-Chat_LandingPage.png",
+      iconLists: ["/Next.svg", "nextauth.png", "/mongo.svg", "/tail.svg"],
+      link: "https://prompt-a-chat-h5ynvd9ht-dd-dengs-projects.vercel.app",
+    },
+    {
+      id: 2,
       title: "Dungeon Crawler RPG - Processing 4 & Java",
-      des: "Explore and fight through the dungeons generated using an image-based procedural level generation algorithm.",
+      des: "Explore through procedurally generated dungeon levels",
       img: "/RpgProjectScreenshot.png",
       iconLists: ["/Processing.svg", "/java.svg"],
       link: "https://www.youtube.com/watch?v=dQJ5l9eZSww",
     },
     {
-      id: 2,
+      id: 3,
       title: "Asteroids Clone - Processing 4 & Java",
       des: "My little experiment with self-made particle effects: Rocket exhaust flames and asteroid debris ",
       img: "/AsteroidsScreenshot.png",
@@ -87,21 +94,14 @@ export const navItems = [
       link: "https://www.youtube.com/shorts/bJmgedshaMs",
     },
     {
-      id: 3,
+      id: 4,
       title: "Pong Clone - Processing 4 & Java",
-      des: "A single or 2-player pong clone. Single player mode features an AI bot as an opponent.",
+      des: "A pong remake that features 1 or 2 player modes. Yes. Sicko Mode is ALWAYS playing in this game.",
       img: "/PongScreenshot.png",
       iconLists: ["/Processing.svg", "/java.svg"],
       link: "https://www.youtube.com/watch?v=EbVVpmaXPzI",
     },
-    {
-      id: 4,
-      title: "Breakout Clone - Processing 4 & Java",
-      des: "Built with the Minim Audio library, you can hear the beeps and bops as the balls bounce around the screen.",
-      img: "/BreakoutScreenshot.png",
-      iconLists: ["/Processing.svg", "/java.svg"],
-      link: "https://youtube.com/shorts/uHlUW_5R2bw?feature=share",
-    },
+    
   ];
   
   export const testimonials = [

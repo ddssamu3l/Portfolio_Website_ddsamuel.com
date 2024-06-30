@@ -42,7 +42,7 @@ const config = {
         yellow:{
           DEFAULT: "#FFFF00",
           100: "#e8be02",
-          unmellow: "#FFFF66",
+          unmellow: "rgb(255, 214, 10)",
           lemon: "#fff44f",
         },
         green:{
