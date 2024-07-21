@@ -31,7 +31,7 @@ const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="white" />
         </div>
 
-        <div className="h-screen w-full dark:bg-black-100 bg-white dark:bg-dot-white/[0.15] bg-grid-black/[0.1] flex items-center justify-center absolute top-0 left-0">
+        <div className="h-screen w-full dark:bg-black-100 bg-white  flex items-center justify-center absolute top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
             <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
@@ -49,11 +49,11 @@ const Hero = () => {
                     className = "text-center text-[40px] md:text-5xl lg:text-7xl" 
                     words = "Hi! My Name is Jingxi Deng"/>
                 
-                <p className = "text-center md:trackin-wider mb-4 text-sm md:text-lg lg: text-2xl">
-                I&apos;m A Student From Vancouver Canada Aspiring To Be A Full-Stack Developer
+                <p className = "text-center md:trackin-wider mb-4 text-sm md:text-lg">
+                I&apos;m A CS Student Aspiring To Be A Full-Stack Developer
                 </p>
 
-                <div className="flex items-center md:gap-3 gap-6 mt-5 mb-4">
+                <div className="flex items-center gap-3 mt-5">
                   {socialMedia.map((info) => (
                     <div
                       key={info.id}
@@ -65,7 +65,7 @@ const Hero = () => {
                   ))}
                 </div>
 
-                <a className="" href="#projects">
+                <a className="pt-6 md:pt-0" href="#projects">
                   <MagicButton
                     title="Show my work"
                     icon={<FaLocationArrow />}

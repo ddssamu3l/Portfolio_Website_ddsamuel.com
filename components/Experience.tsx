@@ -1,6 +1,6 @@
 import React from "react";
 
-import { workExperience } from "@/data";
+import { workExperience } from "@/data/index";
 import { Button } from "./ui/MovingBoarder";
 
 const Experience = () => {
@@ -10,24 +10,24 @@ const Experience = () => {
         My <span className="text-yellow-100">work experience</span>
       </h1>
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="flex justify-center items-center w-full mt-12 gap-10 max-w-[60vw] mx-auto">
         {workExperience.map((card) => (
           <Button
             key={card.id}
-            //   random duration will be fun , I think , may be not
+            // random duration will be fun , I think , may be not
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
             style={{
-              //   add these two
-              //   you can generate the color from here https://cssgradient.io/
+              // add these two
+              // you can generate the color from here https://cssgradient.io/
               background: "rgb(4,7,29)",
               backgroundColor:
-                "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+                "bg-black-100",
               // add this border radius to make it more rounded so that the moving border is more realistic
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            className="flex-1 bg-grey-dark text-black dark:text-white border-white/[0.2]"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img

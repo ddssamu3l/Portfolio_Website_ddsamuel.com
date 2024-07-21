@@ -9,6 +9,7 @@ import { navItems } from '@/data';
 import Experience from '@/components/Experience';
 import Approach from '@/components/Approach';
 import Footer from '@/components/Footer';
+import TechStack from '@/components/TechStack';
 
 
 export default function Home() {
@@ -18,10 +19,11 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <TechStack />
         <Approach />
         <RecentProjects />
-        {/* <Experience />
-        <Clients /> */ }
+        <Experience />
+        {/* <Clients /> */ }
         <Footer />
       </div>
     </main>

@@ -10,28 +10,28 @@ export const navItems = [
       title: "I'm from the Beautiful British Columbia",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[55vh] min-h-[45vh] text-white",
-      imgClassName: "w-full lg:h-[44vh] h-[40vh]",
-      titleClassName: "justify-end",
+      imgClassName: "w-full",
+      titleClassName: "justify-start sm:justify-end mt-2",
       img: "/bc.png",
       spareImg: "",
     },
     {
       id: 2,
-      title: "The bay's tech scene drew me to study here.",
+      title: "The bay's tech scene drew me here",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      className: "row-span-4 lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-start -mt-4",
       img: "",
       spareImg: "",
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I strive to improve",
+      title: "I study at the University of San Francisco",
+      description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-center",
+      titleClassName: "justify-start -mt-4",
       img: "",
       spareImg: "",
     },
@@ -39,11 +39,11 @@ export const navItems = [
       id: 4,
       title: "Fun fact: I also love to program games",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-1 -mt-4",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-end",
       img: "/grid.svg",
-      spareImg: "/b4.svg",
+      spareImg: "/virusImage.png",
     },
   
     {
@@ -52,21 +52,89 @@ export const navItems = [
       description: "What I Am Working On Currently",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
+      titleClassName: "justify-center md:justify-start lg:justify-center -mt-20",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
     {
       id: 6,
-      title: "Can I work with you to create your next project? Click for confetti",
+      title: "Can I work with you to create your next project?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
       imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+      titleClassName: "justify-center md:max-w-full max-w-60 text-center lg:-mt-2",
       img: "",
       spareImg: "",
     },
   ];
+
+  export const techStack = [
+    {
+      id: 1,
+      name: "React.js",
+      image: "/re.svg",
+    },
+    {
+      id: 2,
+      name: "Next.js",
+      image: "/next.svg",
+    },
+    {
+      id: 3,
+      name: "TypeScript",
+      image: "/ts.svg",
+    },
+    {
+      id: 4,
+      name: "Javascript",
+      image: "/javascript.svg",
+    }, 
+    {
+      id: 5,
+      name: "Java",
+      image: "/java.svg",
+    }, 
+    {
+      id: 6,
+      name: "C",
+      image: "/cLanguage.svg",
+    }, 
+    {
+      id: 7,
+      name: "Tailwind CSS",
+      image: "/tail.svg",
+    },
+    {
+      id: 8,
+      name: "NextAuth",
+      image: "/nextauth.svg",
+    }, 
+    {
+      id: 9,
+      name: "OpenAI API",
+      image: "/openai.svg",
+    }, 
+    {
+      id: 10,
+      name: "Convex",
+      image: "/convex.svg",
+    }, 
+    {
+      id: 11,
+      name: "Processing 4",
+      image: "/Processing.svg",
+    }, 
+    {
+      id: 12,
+      name: "Google Cloud",
+      image: "/google.svg",
+    }, 
+    {
+      id: 13,
+      name: "mongo",
+      image: "/mongo.svg",
+    }, 
+  ]
   
   export const projects = [
     {
@@ -173,31 +241,10 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Engineer Intern (bookalift.com)",
+      desc: "Optimized and redesigned website layout and updated web content leading to a 13% increase in customer volume over the course of summer 2024",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/escalade.png",
     },
   ];
   
