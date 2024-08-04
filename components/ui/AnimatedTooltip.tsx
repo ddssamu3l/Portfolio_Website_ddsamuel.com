@@ -69,7 +69,7 @@ export const AnimatedTooltip = ({
               >
                 <div className="absolute inset-0 bg-[conic-gradient(from_90deg_at_50%_50%,#f7c602_0%,#5d6bfc_50%,#f7c602_100%)] rounded-md" />
                 <div className="font-bold text-white relative z-30 text-base">
-                    <h1 className="[text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">{item.name}</h1>
+                    <h1 className="[text-shadow:_0_1px_0_rgb(0_0_0_/_60%)]">{item.name}</h1>
                 </div>
               </motion.div>
             )}
@@ -80,7 +80,7 @@ export const AnimatedTooltip = ({
             width={64}
             src={item.image}
             alt={item.name}
-            className="object-cover !m-0 !p-0 object-top rounded-full  group-hover:scale-120 group-hover:z-30 relative transition duration-250"
+            className="object-cover !m-0 !p-0 object-top rounded-full  group-hover:scale-120 group-hover:z-30 relative transition duration-250 hover:shadow-[0_8px_16px_rgb(0_0_0/1)]"
           />
         </div>
       ))}

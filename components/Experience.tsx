@@ -1,16 +1,26 @@
+"use client"
 import React from "react";
 
 import { workExperience } from "@/data/index";
 import { Button } from "./ui/MovingBoarder";
+import { link } from "fs";
+
+const redirect = (link: string | URL | undefined) => {
+  window.open(link, '_blank');
+}
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full">
-      <h1 className="heading">
-        My <span className="text-yellow-100">work experience</span>
-      </h1>
+    <div className="sm:pt-48 pt-24 w-full">
+      <div className="flex justify-center" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.5)'}}>
+        <h1 className="flex flex-col justify-center items-center text-center heading sm:max-w-[60vw] max-w-[75vw]" >
+          My&nbsp; <span className="text-yellow-100"> work experience</span>
+        </h1>
 
-      <div className="flex justify-center items-center w-full mt-12 gap-10 max-w-[60vw] mx-auto">
+      </div>
+      
+
+      <div className="sm:pt-24 pt-12 flex flex-wrap justify-center items-center w-full gap-10 sm:max-w-[60vw] max-w-[75vw] mx-auto">
         {workExperience.map((card) => (
           <Button
             key={card.id}
@@ -27,7 +37,8 @@ const Experience = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 bg-grey-dark text-black dark:text-white border-white/[0.2]"
+            className="flex-1 bg-grey-dark hover:bg-[#111111] text-black dark:text-white border-white/[0.2]"
+            onClick = {() =>redirect(card.link)}
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img

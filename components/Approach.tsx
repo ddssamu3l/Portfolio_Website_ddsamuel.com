@@ -6,12 +6,12 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className = "justify-center py-20">
-        <h1 className = "heading">
+    <section className = "justify-center sm:pt-48 pt-24">
+        <h1 className = "heading" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.5)'}}>
             My <span className = "text-yellow-100">approach</span> to workflow
         </h1>
 
-        <p className = "mt-5 text-center text-xl"> Try hovering your mouse over the cards</p>
+        <p className = "mt-5 text-center sm:text-xl text-md" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.3)'}}> Try hovering your mouse over the cards</p>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card 
             title="My Brainstorming Process" 
@@ -71,7 +71,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] bg-grey-dark max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-md"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] bg-[#101010] max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] h-[20rem] rounded-md"
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
@@ -95,7 +95,7 @@ const Card = ({
         group-hover/canvas-card:opacity-0 transition duration-200 min-w-40 mx-auto flex items-center justify-center">
           {icon}
         </div>
-        <h2 className="dark:text-black-100 text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black-100 mt-4 font-bold group-hover/canvas-card:text-black group-hover/canvas-card:-translate-y-2 transition duration-200 text-center text-3xl">
+        <h2 className="dark:text-black-100 opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black-100 mt-4 font-bold group-hover/canvas-card:text-black group-hover/canvas-card:-translate-y-2 transition duration-200 text-center text-3xl">
           {title}
         </h2>
         <h2 className="dark:text-black-100 text-md opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black-100 mt-4 font-bold group-hover/canvas-card:text-black group-hover/canvas-card:-translate-y-2 transition duration-200 text-center" style={{color:'#000000'}}>
@@ -111,7 +111,7 @@ const AceternityIcon = ({order}: {order: string}) => {
    <div>
     <button className="p-[3px] relative">
         <div className="absolute inset-0 bg-[conic-gradient(from_90deg_at_50%_50%,#92b2e6_0%,#5d6bfc_50%,#FFFFFF_100%)] rounded-lg" />
-        <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+        <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white font-semibold hover:bg-transparent">
             {order}
         </div>
     </button>
