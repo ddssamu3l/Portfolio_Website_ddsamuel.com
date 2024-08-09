@@ -20,7 +20,7 @@ const Experience = () => {
       </div>
       
 
-      <div className="sm:pt-24 pt-12 flex flex-wrap justify-center items-center w-full gap-10 sm:max-w-[60vw] max-w-[75vw] mx-auto">
+      <div className="sm:pt-24 pt-12 flex flex-wrap justify-center items-center w-[1000px] gap-10 sm:max-w-[60vw] max-w-[75vw] mx-auto">
         {workExperience.map((card) => (
           <Button
             key={card.id}
@@ -37,7 +37,7 @@ const Experience = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // remove bg-white dark:bg-slate-900
-            className="flex-1 bg-grey-dark hover:bg-[#111111] text-black dark:text-white border-white/[0.2]"
+            className="h-[200px] flex-1 bg-grey-dark hover:bg-transparent text-black dark:text-white"
             onClick = {() =>redirect(card.link)}
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">

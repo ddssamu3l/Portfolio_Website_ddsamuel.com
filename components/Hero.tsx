@@ -25,7 +25,7 @@ const Hero = () => {
                 words="ddsamuel.com" />
 
             <TextGenerateEffect 
-                className="-mt-4 font-bold text-center text-6xl lg:text-9xl tracking-tight leading-tight" 
+                className="max-w-[900px] -mt-4 font-bold text-center text-6xl lg:text-9xl tracking-tight leading-tight" 
                 words="Hi! My Name Is Jingxi Deng"/>
               
             <TextGenerateEffect className="mt-4 sm:max-w-[540px] max-w-[75vw] text-center md:tracking-wider leading-normal mb-4 text-sm md:text-md tracking-tight"

@@ -242,10 +242,18 @@ export const navItems = [
     {
       id: 1,
       title: "Frontend Engineer Intern (bookalift.com)",
-      desc: "Optimized and redesigned website layout and updated web content leading to a 17% increase in conversion rate over",
+      desc: "Optimized and redesigned website layout and updated web content leading to a 17% increase in conversion rate",
       className: "md:col-span-2",
       thumbnail: "/escalade.png",
       link: "https://bookalift.com"
+    },
+    {
+      id: 2,
+      title: "Web Developer at Lord Byng E-Sports Club",
+      desc: "Designed and implemented a blog website for our school's E-Sports club, documenting our 50+ competitive games played in the 2023 season and our jouney to become provincial champtions",
+      className: "md:col-span-2",
+      thumbnail: "/league.png",
+      link: "https://youtu.be/viXTQBibaEU"
     },
   ];
   
