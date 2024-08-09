@@ -74,7 +74,7 @@ export const navItems = [
       title: "Prompt-A-Chat: AI Prompt Sharing APP",
       des: "Discover & Share useful prompts to use for ChatGPT.",
       img: "/Prompt-A-Chat_LandingPage.png",
-      iconLists: ["/Next.svg", "nextauth.png", "/mongo.svg", "/tail.svg"],
+      iconLists: ["/next.svg", "nextauth.png", "/mongo.svg", "/tail.svg"],
       link: "https://prompt-a-chat-h5ynvd9ht-dd-dengs-projects.vercel.app",
     },
     {
