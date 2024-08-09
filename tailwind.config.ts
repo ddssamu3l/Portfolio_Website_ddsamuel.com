@@ -41,7 +41,7 @@ const config = {
         },
         yellow:{
           DEFAULT: "#FFFF00",
-          100: "#e8be02",
+          100: "#face3e",
           unmellow: "rgb(255, 214, 10)",
           lemon: "#fff44f",
         },
@@ -94,6 +94,9 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        textShadow: {
+          'black-outline': '0 0 3px #000, 0 0 3px #000, 0 0 3px #000, 0 0 3px #000',
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -178,6 +181,18 @@ const config = {
         fifth: "moveInCircle 20s ease infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+      },
+      scale: {
+        '120': '1.20',
+      },
+      textShadow: {
+        'sm': '0 1px 2px rgba(0, 0, 0, 0.5)',
+        'DEFAULT': '0 2px 4px rgba(0, 0, 0, 0.1)',
+        'md': '0 3px 6px rgba(0, 0, 0, 0.15)',
+        'lg': '0 10px 15px rgba(0, 0, 0, 0.25)',
+        'xl': '0 20px 25px rgba(0, 0, 0, 0.3)',
+        '2xl': '0 25px 50px rgba(0, 0, 0, 0.5)',
+        'none': 'none',
       },
     },
   },
