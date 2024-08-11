@@ -7,11 +7,11 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className = "justify-center sm:pt-48 pt-24">
-        <h1 className = "heading" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.5)'}}>
+        <h1 className = "heading" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.2)'}}>
             My <span className = "text-yellow-100">approach</span> to workflow
         </h1>
 
-        <p className = "mt-5 text-center sm:text-xl text-md" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.3)'}}> Try hovering your mouse over the cards</p>
+        <p className = "mt-5 text-center sm:text-xl text-md" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.15)'}}> Try hovering your mouse over the cards</p>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         <Card 
             title="My Brainstorming Process" 
@@ -71,8 +71,9 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] bg-[#101010] max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] h-[20rem] rounded-md"
-    >
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2] bg-transparent max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] h-[20rem] rounded-md"
+    > 
+      <div className="absolute inset-0 w-full h-full bg-black bg-opacity-15 backdrop-filter backdrop-blur-lg z-[-1]" />
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />

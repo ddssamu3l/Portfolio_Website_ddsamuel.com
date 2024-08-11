@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="sm:pt-64 pt-32 w-full pb-10 mb-[100px] md:mb-5" id="contact">
       <div className="flex flex-col items-center">
         
-        <h1 className="heading sm:max-w-[60vw] max-w-[75vw] mb-10" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.5)'}}>
+        <h1 className="heading sm:max-w-[60vw] max-w-[75vw] mb-10" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.2)'}}>
           I&apos;m <span className="text-yellow-100">always rechable</span> with an email
         </h1>
        
