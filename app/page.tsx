@@ -30,7 +30,7 @@ export default function Home() {
         <RecentProjects />
         {/* <Games /> */}
         <Experience />
-        {/* <Clients /> */}
+        <Clients />
         <Footer />
       </div>
     </main>
