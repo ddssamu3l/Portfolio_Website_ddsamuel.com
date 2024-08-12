@@ -6,8 +6,10 @@
 
 ## Tech Stack
 - Next.js 15
-- Tailwind CSS
+- Three.js
+- Framer Motion
 - Sentry
+- Tailwind CSS
 - Acernity UI
 
 ## Contents
