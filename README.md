@@ -7,6 +7,7 @@
 ## Tech Stack
 - Next.js 15
 - Tailwind CSS
+- Sentry
 - Acernity UI
 
 ## Contents
