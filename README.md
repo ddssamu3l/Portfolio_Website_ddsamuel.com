@@ -8,3 +8,13 @@
 - Next.js 15
 - Tailwind CSS
 - Acernity UI
+
+## Contents
+- Hero Page
+- Bento Grid
+- Tech Stack
+- My Approach
+- Recent Projects
+- Past Experiences
+- Past Collaborators
+- Footer & contacts
