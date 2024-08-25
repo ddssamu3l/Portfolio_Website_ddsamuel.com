@@ -16,7 +16,7 @@ const Approach = () => {
         <Card 
             title="My Brainstorming Process" 
             icon={<AceternityIcon order = "Step 1"/>} 
-            description = "I'll try to set up a virtual or in-person meeting to discuss and map out your goals, intended audience and key functionalities you find most important. I'll discuss things like site structure, navigation structure, ideal UI/UX designs and the content you want to put on your site."
+            description = "Understanding the context of the customer is the most crucial consideration when designing a concept. I will lay out a list of practical requirements that align most with actual customer needs while thinking from their perspectives. Visualizing ideas is also one of my key brainstorming processes. When working with clients or team members, I will always try to set up a virtual or in-person meeting with either a sketch or a mockup to communicate my ideas effectively. "
             >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -28,7 +28,7 @@ const Approach = () => {
         <Card 
             title="Development Process & Updates" 
             icon={<AceternityIcon order = "Step 2"/>}
-            description = "Once we decide on a plan we're happy with, I'll head home, fire up my PC, and start jump right into the technical nitty gritty on my dual-monitor ultrawide setup. Of course, I'll keep you updated on every step of the process such as including screenshots of our work-in-progress stage as well as a short message on what I'm currently trying to implement."
+            description = "I will always provide my group members and customers with the most up-to-date information reguarding the latest developement insignt. I do this because prioritizing the sharing of information between team members and the customer have always netted greater output than maximizing the amount of code written by each individual programmer. What is important to me is minimizing confusion and errors, because it is the most efficient development process."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,7 +41,7 @@ const Approach = () => {
         <Card 
             title="Development & Launch" 
             icon={<AceternityIcon order = "Step 3"/>}
-            description = "Once we've reached a satisfactory prototype, I'll chose an appropreate method/service to launch our website!"
+            description = "Once the hard work is over, and the time is appropreate, the product that my team and I have worked on with passion will be launched into live servers! Horray!"
         >
           <CanvasRevealEffect
             animationSpeed={3}
