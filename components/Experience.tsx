@@ -13,8 +13,9 @@ const Experience = () => {
   return (
     <div className="sm:pt-48 pt-24 w-full" id="experience">
       <div className="flex justify-center" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.2)'}}>
-        <h1 className="flex flex-col justify-center items-center text-center heading sm:max-w-[60vw] max-w-[75vw]" >
-          My&nbsp; <span className="text-yellow-100"> work experience</span>
+        <h1 className = "heading">
+            My past {' '}
+            <span className = "text-yellow-100">experiences</span>
         </h1>
 
       </div>
@@ -39,10 +40,10 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
+                <h1 className="text-start text-md sm:text-3xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
+                <p className="text-start text-sm sm:text-base text-white/[0.7] mt-3 font-semibold">
                   {card.desc}
                 </p>
               </div>
