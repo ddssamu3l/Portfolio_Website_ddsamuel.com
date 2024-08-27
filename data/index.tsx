@@ -130,6 +130,11 @@ export const navItems = [
       name: "Vercel",
       image: "/vercel.svg",
     }, 
+    {
+      id: 15,
+      name: "Three.js",
+      image: "/three.svg",
+    }, 
   ]
   
   export const projects = [
