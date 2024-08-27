@@ -101,6 +101,11 @@ export const navItems = [
       image: "/cLanguage.svg",
     }, 
     {
+      id: 15,
+      name: "Go",
+      image: "/Go.svg",
+    },
+    {
       id: 7,
       name: "Tailwind CSS",
       image: "/tail.svg",

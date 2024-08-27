@@ -1,9 +1,23 @@
 # Check out my portfolio website!
-## https://ddsamuel.com/
 
-![ddsamuel com](https://github.com/ddssamu3l/Portfolio_Website_-ddsamuel.com-/assets/72890797/1989f0d2-3565-43cc-86d5-95e54cc85fa0)
+## https://ddsamuel.com/
+![ddsamuel](https://github.com/user-attachments/assets/cef4ea3c-ad68-467c-a172-a8369706b153)
+
 
 ## Tech Stack
 - Next.js 15
+- Three.js
+- Framer Motion
+- Sentry
 - Tailwind CSS
 - Acernity UI
+
+## Contents
+- Hero Page
+- Bento Grid
+- Tech Stack
+- My Approach
+- Recent Projects
+- Past Experiences
+- Past Collaborators
+- Footer & contacts

@@ -17,7 +17,7 @@ const Footer = () => {
           I&apos;m <span className="text-yellow-100">always rechable</span> with an email
         </h1>
        
-        <a href="mailto:samueldeng78@gmail.com">
+        <a href="https://calendly.com/samueldeng78/30-min-meeting">
           <MagicButton
             title="Let's get in touch!"
             icon={<FaLocationArrow />}
