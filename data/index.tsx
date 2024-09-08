@@ -116,11 +116,6 @@ export const navItems = [
       image: "/openai.svg",
     }, 
     {
-      id: 11,
-      name: "Processing 4",
-      image: "/Processing.svg",
-    }, 
-    {
       id: 12,
       name: "Google Cloud",
       image: "/google.svg",
