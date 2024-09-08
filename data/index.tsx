@@ -131,7 +131,7 @@ export const navItems = [
       image: "/vercel.svg",
     }, 
     {
-      id: 15,
+      id: 16,
       name: "Three.js",
       image: "/three.svg",
     }, 
