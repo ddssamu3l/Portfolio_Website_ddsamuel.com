@@ -31,7 +31,7 @@ const Experience = () => {
             
             // remove bg-white dark:bg-slate-900
             className="h-[200px] flex-1 bg-black-100 bg-opacity-10 hover:bg-opacity-15 text-black dark:text-white"
-            onClick = {() =>redirect(card.link)}
+            onClick = {card.link ? () =>redirect(card.link) : undefined}
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img

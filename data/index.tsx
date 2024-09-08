@@ -199,50 +199,24 @@ export const navItems = [
     },
   ];
   
-  export const companies = [
+  export const workExperience = [
     {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      id: 2,
+      title: "Computer Science Mentor - USF Mentorship Collective Program",
+      desc: "Increasing overall mentee grades by 10% through conducting one-on-one and group mentoring sessions, helping 10+ students find academic success in Computer Science courses.",
+      className: "md:col-span-2",
+      thumbnail: "/usf_dons.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern - bookalift.com",
+      title: "Full Stack Engineer Intern - bookalift.com",
       desc: "Optimized and redesigned website layout and updated web content leading to a 17% increase in conversion rate.",
       className: "md:col-span-2",
       thumbnail: "/escalade.png",
       link: "https://bookalift.com"
     },
     {
-      id: 2,
+      id: 3,
       title: "Web Developer - Lord Byng E-Sports Club",
       desc: "Designed and implemented a blog website for our school's E-Sports club, documenting 50+ competitive games played in the 2023 season to become provincial champtions.",
       className: "md:col-span-2",
@@ -250,7 +224,7 @@ export const navItems = [
       link: "https://youtu.be/viXTQBibaEU"
     },
     {
-      id: 3,
+      id: 4,
       title: "English Tutor - GUM Learning Non-Profit Organization",
       desc: "Using my bilingual advantage to teach English to kids from rural China, helping bridge cultural gaps worldwide.",
       classname: "md:col-span-2",
