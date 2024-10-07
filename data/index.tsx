@@ -196,6 +196,13 @@ export const navItems = [
   
   export const workExperience = [
     {
+      id: 1,
+      title: "Software Engineer Intern - Datatrixs",
+      desc: "Developed AI solutions using OpenAI’s API to create Mira, an AI-powered financial advisor, boosting productivity by 1500% to 2300% by reducing task completion time from 4–6 hours to just 15 minutes.",
+      className: "md:col-span-2",
+      thumbnail: "/datatrixs.png",
+    },
+    {
       id: 2,
       title: "Computer Science Mentor - USF Mentorship Collective Program",
       desc: "Increasing overall mentee grades by 10% through conducting one-on-one and group mentoring sessions, helping 10+ students find academic success in Computer Science courses.",
@@ -203,7 +210,7 @@ export const navItems = [
       thumbnail: "/usf_dons.svg",
     },
     {
-      id: 2,
+      id: 3,
       title: "Full Stack Engineer Intern - bookalift.com",
       desc: "Optimized and redesigned website layout and updated web content leading to a 17% increase in conversion rate.",
       className: "md:col-span-2",
@@ -211,7 +218,7 @@ export const navItems = [
       link: "https://bookalift.com"
     },
     {
-      id: 3,
+      id: 4,
       title: "Web Developer - Lord Byng E-Sports Club",
       desc: "Designed and implemented a blog website for our school's E-Sports club, documenting 50+ competitive games played in the 2023 season to become provincial champtions.",
       className: "md:col-span-2",
@@ -219,7 +226,7 @@ export const navItems = [
       link: "https://youtu.be/viXTQBibaEU"
     },
     {
-      id: 4,
+      id: 5,
       title: "English Tutor - GUM Learning Non-Profit Organization",
       desc: "Using my bilingual advantage to teach English to kids from rural China, helping bridge cultural gaps worldwide.",
       classname: "md:col-span-2",
