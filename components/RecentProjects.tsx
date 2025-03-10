@@ -44,7 +44,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm font-semibold text-yellow-100" style={{ textShadow: '2px 2px 3px rgba(0, 0, 0, 0.3)' }}>
-                    Live Demo
+                    GitHub Repo
                   </p>
                   <FaLocationArrow className="ms-3" color="FFFFFF" />
                 </div>
