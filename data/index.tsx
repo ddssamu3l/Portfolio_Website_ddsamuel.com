@@ -10,9 +10,9 @@ export const navItems = [
       id: 1,
       title: "I'm from the Beautiful British Columbia",
       description: "",
-      className: "col-span-1 row-span-2 lg:col-span-3 md:col-span-6 md:row-span-4 text-white sm:min-h-[500px] sm:max-h-[600px]",
-      imgClassName: "w-full",
-      titleClassName: "justify-end mt-2",
+      className: "col-span-1 row-span-2 lg:col-span-3 md:col-span-6 md:row-span-4 text-white",
+      imgClassName: "w-full h-auto",
+      titleClassName: "justify-end mt-4 w-full",
       img: "/bc.png",
       spareImg: "",
     },
@@ -215,7 +215,7 @@ export const navItems = [
       desc: "Optimized and redesigned website layout and updated web content leading to a 17% increase in conversion rate.",
       className: "md:col-span-2",
       thumbnail: "/escalade.png",
-      link: "https://bookalift.com"
+      link: "https://bookalift.ca"
     },
     {
       id: 4,
